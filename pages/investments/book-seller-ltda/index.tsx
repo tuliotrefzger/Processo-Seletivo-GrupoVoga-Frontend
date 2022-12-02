@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Navbar from "../../../components/navbar";
-import fruitMarketImage from "../../../images/fruitMarket.jpg";
+import libraryImage from "../../../images/library.jpg";
 import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
@@ -20,7 +20,7 @@ const theme = createTheme({
   },
 });
 
-export default function BananaRepublicInc() {
+export default function BookSellerLTDA() {
   return (
     <>
       <Navbar />
@@ -42,7 +42,7 @@ export default function BananaRepublicInc() {
               backgroundColor: "#F5F5F5",
             }}
           >
-            <h1 style={{ marginLeft: "3vh" }}>Banana Republic Inc.</h1>
+            <h1 style={{ marginLeft: "3vh" }}>Book Seller LTDA</h1>
             <div
               style={{
                 display: "flex",
@@ -55,7 +55,7 @@ export default function BananaRepublicInc() {
               <div
                 style={{ height: "500px", width: "100%", position: "relative" }}
               >
-                <Image alt="test" src={fruitMarketImage} layout="fill" />
+                <Image alt="test" src={libraryImage} layout="fill" />
               </div>
               <p
                 style={{
